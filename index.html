@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <title>Blink Detector (v3)</title>
+
+    <!-- Манифест PWA -->
+    <link rel="manifest" href="/blink/manifest.webmanifest" />
+    <meta name="theme-color" content="#000000" />
+    <script type="module" crossorigin src="/blink/assets/index-Dtt5YLx4.js"></script>
+    <link rel="stylesheet" crossorigin href="/blink/assets/index-DERYkiS_.css">
+  <link rel="manifest" href="/blink/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/blink/registerSW.js"></script></head>
+
+  <body>
+    <div id="wrap">
+      <video class="input_video" playsinline></video>
+      <canvas class="output_canvas"></canvas>
+      <div id="hud" class="ok">Loading…</div>
+      <div id="history">
+        <h4>История</h4>
+        <ul id="log"></ul>
+      </div>
+    </div>
+
+    <!-- Основная логика и регистрация SW -->
+  </body>
+</html>
